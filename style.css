@@ -15,8 +15,14 @@ a:hover{
     color: #9c552b;
 }
 
-.nav > li > a:hover{
+.nav>li>a:hover{
     background-color: transparent;
+}
+
+.nav>li>a{
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+        padding: 15px 30px;
 }
 
 .navbar-brand{
@@ -31,6 +37,7 @@ a:hover{
 }
 
 .herobg h1{
+    font-family: 'Open Sans', sans-serif;
     color: #ffff;
     width: 450px;
     font-size;3em;
@@ -40,5 +47,42 @@ a:hover{
     margin-top: 50%;    /*    or 300px*/
     text-align: center;
     padding-bottom: 10%;
+    margin-left: 30%;
+
+}
+
+/*???*/
+.aboutbg{
+    background-image: url(images/welcomebg.png);
+    background-size: cover;
 }
     
+.aboutbg h2{
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-top: 30px;
+}
+
+.welcome-text{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 30px;
+    font-size:1em;
+    line-height: 2em;
+}
+
+.btn-primary {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #ffff;
+    background-color: #9c552b;
+    border-color: transparent;
+}
+
+.btn:hover{
+    background-color:darkgray;
+    border-color: transparent;
+}
