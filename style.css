@@ -23,20 +23,17 @@ a:hover{
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
         padding: 15px 30px;
-}
-
-.navbar-brand {
-background: url(images/logo.png);
-padding: 0px;
-font-size: 18px;
-line-height: 20px;
-height: 50px;
+    padding-top: 50px;
 }
 
 
 .herobg{
     background: url(images/header-bg.jpg);
     background-size: cover;
+}
+
+.navbar-brand>img{
+    width: 150px;
 }
 
 .herobg h1{
@@ -79,7 +76,7 @@ height: 50px;
 .btn-primary {
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
     color: #ffff;
     background-color: #9c552b;
     border-color: transparent;
@@ -155,6 +152,17 @@ footer{
     background-position: center center;
 }
 
+.icons{
+    padding-top: 30px;
+    width: 50px;
+}
+
 .footer-content{
-    
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    color: #9c552b;
+}
+
+.footerbox{
+    background-color: #1c1c1a;
 }
