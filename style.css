@@ -25,9 +25,12 @@ a:hover{
         padding: 15px 30px;
 }
 
-.navbar-brand{
-    background: url(images/logo.jpg);
-    background-size: cover;
+.navbar-brand {
+background: url(images/logo.png);
+padding: 0px;
+font-size: 18px;
+line-height: 20px;
+height: 50px;
 }
 
 
