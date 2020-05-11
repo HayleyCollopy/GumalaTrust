@@ -86,3 +86,68 @@ a:hover{
     background-color:darkgray;
     border-color: transparent;
 }
+
+.meetcarolbg{
+    background-color: #1c1c1a;
+}
+
+.meetdavidbg{
+    background-color: #ffff;
+}
+
+.img-responsive{
+    margin-bottom:10%;
+}
+
+.col-md-6{
+    margin-top: 5%;
+    margin-bottom 5%;
+}
+
+.carol{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1.em;
+    color: #ffff;
+}
+
+.david{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1.em;
+    color: black;
+}
+
+.date{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    color: darkgray;
+    letter-spacing: 1px;
+}
+
+.carolp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    color: #ffff;
+    letter-spacing: .8px;
+}
+
+.davidp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    letter-spacing: .8px;
+}
+
+.seemore{
+        font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    color: #9c552b;
+    letter-spacing: 1px;
+}
+
+footer{
+    background-image: url(images/footer-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: center center;
+}
