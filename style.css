@@ -27,7 +27,20 @@ a:hover{
 }
 
 .navbar-toggle{
+    margin-top: 30px;
     background-color: black;
+}
+
+.btn-primary.active, .btn-primary:active, .open>.dropdown-toggle.btn-primary {
+    color: #fff !important;
+    background-color: #9c552b !important;
+    border-color: transparent !important;
+}
+
+.btn-primary {
+    color: #fff !important;
+    background-color: #9c552b !important;
+    border-color: transparent !important;
 }
 
 .icon-bar{
@@ -53,10 +66,13 @@ a:hover{
     letter-spacing: 1px;
     font-weight: 800;
     line-height: 100%;
-    margin-top: 50%;    /*    or 300px*/
+    margin-top: 25%;
     text-align: center;
-    padding-bottom: 10%;
+    padding-bottom: 15%;
+    margin-left: auto;
+    margin-right: auto;
 
+    
 
 }
 
