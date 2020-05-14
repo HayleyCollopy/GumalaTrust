@@ -28,7 +28,8 @@ a:hover{
 
 
 .herobg{
-    background: url(images/header-bg.jpg);
+    background: url(images/white-mountain-01.png),url(images/header-bg.jpg);
+    background-position: bottom,top;
     background-size: cover;
 }
 
