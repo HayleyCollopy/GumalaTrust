@@ -24,6 +24,21 @@
     .navbar-header {
         float:none;
     }
+    
+    .navbutton{
+        background-color: white;
+    }
+    
+    .navbutton:hover{
+        background-color: black;
+    }
+    
+    .nav>li>a{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    }
+    
 }
 
 Press Shift + Tab to navigate to chat history.
