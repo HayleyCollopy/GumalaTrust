@@ -3,9 +3,9 @@
           <div class="footer-content">
               <div class="text-center">
 <!--              SOCIAL MEDIA ICONS GO HERE-->
-              <a href="https://facebook.com/GumalaTrust"><img class="icons" src="images/facebook%20icon.png"></a>
-              <a href="https://au.linkedin.com/company/gumala-trust"><img class="icons" src="images/linkedin%20icon.png"></a>
-              <a href="https://instagram.com"><img class="icons" src="images/instagram%20icon.png"></a>
+              <a href="https://facebook.com/GumalaTrust"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/facebook%20icon.png"></a>
+              <a href="https://au.linkedin.com/company/gumala-trust"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/linkedin%20icon.png"></a>
+              <a href="https://instagram.com"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/instagram%20icon.png"></a>
               </div>
               
               
