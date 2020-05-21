@@ -26,7 +26,7 @@
       <section class="container-fluid meetcarolbg notfooter">
           <div class="container">
               <div class="row">
-                  <div class="trustlogo"><img src="images/gumala-logo-icon.png"></div>
+                  <div class="trustlogo"><img src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></div>
                   
                   <div class="col-md-6 meet-responsive">
                       <h4 class="carol">MEET CAROL</h4>
@@ -39,7 +39,7 @@
                   </div>
                   
                   <div class="col-md-6 meet-responsive">
-                      <img class="img-responsive" alt="carol" src="images/carol-img.jpg">
+                      <img class="img-responsive" alt="carol" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/carol-img.jpg">
                   </div>
                   
               </div>
@@ -51,7 +51,7 @@
               <div class="row">
                   
                   <div class="col-md-6 meet-responsive">
-                  <img class="img-responsive" alt="david" src="http://206.189.45.97/~mesh4/wp-content/themes/GumalaTrust/images/david-img.jpg">
+                  <img class="img-responsive" alt="david" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/david-img.jpg">
                   </div>
                   
                   <div class="col-md-6 meet-responsive">
