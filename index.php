@@ -33,17 +33,26 @@ wp_reset_query();?>
                   <div class="trustlogo"><img src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></div>
                   
                   <div class="col-md-6 meet-responsive">
-                      <h4 class="carol">MEET CAROL</h4>
-                      <p class="date">February 28, 2019</p>
-                      <p class="carolp">In January, the Gumala Trust (GIPL) congradulated Gumala Beneficiary Carol Lee Tucker when she took ownership of her home in Tom Price. Carol took advantage of the opportunity offered by GIPL last year for beneficiaries to purchace Gulama investment houses. The GIPL board is keen to see more Beneficiaries obtain their homes.
-                      </p>
-                      <p class="seemore">See more...</p>
+<?php $post_id = 100;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4 class="carol"><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="seemore" href="'.get_permalink($queried_post).'"><br>See more...</a>';?>                       
+
           
           
                   </div>
                   
                   <div class="col-md-6 meet-responsive">
-                      <img class="img-responsive" alt="carol" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/carol-img.jpg">
+<?php $post_id = 104;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+                      
+                      
+                      
                   </div>
                   
               </div>
@@ -55,15 +64,22 @@ wp_reset_query();?>
               <div class="row">
                   
                   <div class="col-md-6 meet-responsive">
-                  <img class="img-responsive" alt="david" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/david-img.jpg">
+<?php $post_id = 107;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+                      
+                      
                   </div>
                   
                   <div class="col-md-6 meet-responsive">
-                      <h4 class="david">MEET DAVID</h4>
-                      <p class="date">March 15, 2019</p>
-                      <p class="davidp">The Gumala Trust (GIPL) would like to congratulate Gumala Beneficiary David Moses Martin who took ownership of his home in South Hedland this week. David took advantage of the opportunity offered by GIPL last year for Beneficiaries to purchase Gumala investment houses. The GIPL Board is keen to see more Beneficiaries obtain their own homes and will consider sales of its residential properties in Tom Price and South Hedland to Beneficiaries. David is pictured here with Gumala Trust Executive Officer John Raftis.
-                      </p>
-                      <p class="seemore">See more...</p>
+<?php $post_id = 102;
+$queried_post = get_post($post_id);?>
+<?php echo get_the_post_thumbnail($queried_post, 'full', array('class' => 'img-responsive')); ?>
+<h4 class="david"><?php echo $queried_post->post_title; ?></h4>
+<?php echo $queried_post->post_excerpt; ?>
+<?php echo '<a class="seemore" href="'.get_permalink($queried_post).'"><br>See more...</a>';?>
           
           
                   </div>      
