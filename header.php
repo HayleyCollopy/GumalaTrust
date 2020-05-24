@@ -46,10 +46,8 @@
   <body>
 
       <!--      NAVBAR START-->
-      <header class="container-fluid herobg">
+<header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
      
-              
-          
           <nav class="navbar">
   <div class="container-fluid notfooter">
     <div class="navbar-header">
@@ -62,13 +60,18 @@
         <img src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/maybe-finallogo-01.png" alt="main logo"></a> <!--        ?????-->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active navbutton"><a href="#">HOME</a></li>
-        <li class="navbutton"> <a href="#">ABOUT US</a></li>
-        <li class="navbutton"> <a href="#">BENEFICIARIES</a></li>
-        <li class="navbutton"> <a href="#">MEDIA</a></li>
-        <li class="navbutton"> <a href="#">CONTACT US</a></li>
-      </ul>
+
+<ul class="nav navbar-nav navbar-right">
+<?php wp_nav_menu(array(
+        'menu' => 'Top menu',
+        'items_wrap'=>'%3$s',
+        'container' => false,
+        'list_item_class' => "nav-item",
+        'link_class' => "nav-link",
+)); ?>
+</ul>
+
+        
     </div>
   </div>
 </nav>  
@@ -80,7 +83,7 @@
           <!--      HEADER START-->
           
           <div class="container text-center">
-    <h1>WORKING TOGETHER FOR THE FUTURE</h1>
+<h1><?php the_field('maintagline'); ?></h1>
     </div>
       <!--      HEADER END-->
 </header>  
