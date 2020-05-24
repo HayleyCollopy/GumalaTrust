@@ -5,16 +5,20 @@
           
           <div class="container ">
                 
-              <div class="welc"><h2>WELCOME</h2></div>
-               
-            
-                
-              
-        
-          
-              <p class="welcome-text">The Gumala Trust has a vital role as the Trustee of the General Gumala Foundation, and as such, has legal responsibilities to appropriately manage and supervise the monies received and distributed on behalf of the Foundation under the terms of its Trust Deed.</p>
+<?php
+global $more;//define a global variable
+$more = 0;// the global varibale is now equal to 0
+query_posts('cat=5');//look for posts that have the category of 2
+if(have_posts()) ://if we have posts to display
+while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
+?>
+<h2><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h2> 
+            <div><p class="welcome-text"><?php the_content() ?></p></div>
+<?php
+endwhile;
+endif;
+wp_reset_query();?>    
 
-                  <p class="welcome-text">Since 1997, The Gumala Trust has been acting as a ‘safe pair of hands’ to ensure the best interest of our Beneficiaries, the Traditional Owners of the Yinhawangka, Bunjima and Nyiyaparli people, are being met both now and in the future...</p>
       
 <!--              BUTTON-->
               <button type="button" class="btn btn-primary">BECOME A BENEFICIARY</button>
