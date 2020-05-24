@@ -82,6 +82,15 @@ a:hover{
     background-size: cover;
 }
 
+.small_herobg{
+    width: 100%;
+    background: url(images/white-mountain-01.png),url(images/small_header-bg.jpg);
+    background-position: bottom,top;
+    background-size: cover;
+    height: 40vh;
+}
+
+
 .navbar-brand>img{
     width: 150px;
 }
@@ -216,6 +225,7 @@ a:hover{
     font-size: .8em;
     color: #9c552b;
     letter-spacing: 1px;
+    display: block;
 }
 
 footer{
