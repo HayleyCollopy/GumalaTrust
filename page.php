@@ -1,10 +1,11 @@
 <?php
 /*
-Template Name: About Us
+Template Name: About USSS
 */
 ?>
 
-<?php get_header(); /* Tells WordPress to include header.php */ ?>
+<?php get_new_small_header(); /* Tells WordPress to include header.php */ ?>
+
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
