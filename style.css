@@ -26,6 +26,13 @@ a:hover{
     color: #9c552b;
 }
 
+.trustlogo2 img {
+  margin-top: -55%;
+    float: right;
+    width: 270px;
+    
+}
+
 .trustlogo img {
   margin-top: -9%;
     width: 70px;
@@ -77,7 +84,7 @@ a:hover{
 
 
 .herobg{
-    background: url(images/white-mountain-01.png),url(images/header-bg.jpg);
+    background: url(images/white-mountain-01.png),url(images/small_header-bg2.jpg);
     background-position: bottom,top;
     background-size: cover;
 }
@@ -95,6 +102,10 @@ a:hover{
     width: 150px;
 }
 
+.small_header{
+    margin-top: 30%;
+}
+
 .herobg h1{
     font-family: 'Open Sans', sans-serif;
     color: #ffff;
@@ -110,15 +121,20 @@ a:hover{
     margin-right: auto;
 }
 
+
+
 .notfooter{
-        padding-bottom: 60px;
+        padding-bottom: 90px;
 }
 
 
 /*???*/
 .aboutbg{
-    background-image: url(images/welcomebg.png);
+    background-image: url(images/gumala-logo-icon2.png);
+    background-position: bottom, top;
     background-size: cover;
+    
+    
 }
     
 .aboutbg h2{
@@ -139,7 +155,6 @@ a:hover{
     padding: 0 10px;
     background-color: #ffffff;
     width: 160px;
-   
     margin-left: auto;
     margin-right: auto;
 }
@@ -167,7 +182,7 @@ a:hover{
 }
 
 .meetcarolbg{
-    background-image: url(images/white-mountain%202.png); 
+    background-image: url(images/white-mountain%202.png), url(images/background-gradient-img.png); 
     background-position: bottom;
     background-color: #1c1c1a;
     background-size: cover;
