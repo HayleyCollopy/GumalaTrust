@@ -84,14 +84,14 @@ a:hover{
 
 
 .herobg{
-    background: url(images/white-mountain-01.png),url(images/small_header-bg2.jpg);
+    background: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain-01.png),url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/small_header-bg2.jpg);
     background-position: bottom,top;
     background-size: cover;
 }
 
 .small_herobg{
     width: 100%;
-    background: url(images/white-mountain-01.png),url(images/small_header-bg.jpg);
+    background: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain-01.png),url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/small_header-bg.jpg);
     background-position: bottom,top;
     background-size: cover;
     height: 40vh;
@@ -130,7 +130,7 @@ a:hover{
 
 /*???*/
 .aboutbg{
-    background-image: url(images/gumala-logo-icon2.png);
+    background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon2.png);
     background-position: bottom, top;
     background-size: cover;
     
@@ -182,7 +182,7 @@ a:hover{
 }
 
 .meetcarolbg{
-    background-image: url(images/white-mountain%202.png), url(images/background-gradient-img.png); 
+    background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain%202.png), url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/background-gradient-img.png); 
     background-position: bottom;
     background-color: #1c1c1a;
     background-size: cover;
@@ -244,7 +244,7 @@ a:hover{
 }
 
 footer{
-    background-image: url(images/footer-bg.jpg);
+    background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/footer-bg.jpg);
     background-size: cover;
     width: 100%;
     background-position: center center;
