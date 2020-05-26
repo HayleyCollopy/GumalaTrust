@@ -129,11 +129,10 @@ a:hover{
 
 
 /*???*/
-.aboutbg{
+.aboutimagebg{
     background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon2.png);
     background-position: bottom, top;
     background-size: cover;
-    
     
 }
     
@@ -141,7 +140,7 @@ a:hover{
     font-size: 1.5em;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    margin-top: 50px;
+    margin-top: 80px;
 }
 
 .welc {
@@ -157,6 +156,12 @@ a:hover{
     width: 160px;
     margin-left: auto;
     margin-right: auto;
+    
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+    
 }
 
 .welcome-text{
