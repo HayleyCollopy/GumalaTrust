@@ -271,3 +271,111 @@ p {
 .footerbox{
     background-color: #1c1c1a;
 }
+
+
+
+
+
+
+
+
+
+
+
+.beneficiaries-header{
+    background: url(images/white-mountain-01.png),url(imagestwo/real-image.png);
+    background-position: bottom,top;
+    background-size: cover;
+}
+
+.sub-title-beneficiary{
+    width: 100%;
+    height: 15px;
+    text-align: left;
+    margin-left: 40px;
+}
+
+.beneficiary{
+width: 100%;
+height: 15px;
+border-bottom: 1px solid #1c1c1a;
+text-align: center;
+}
+
+.beneficiary h2 {
+padding: 0 10px;
+background-color: #ffffff;
+width: 220px;
+margin-left: auto;
+margin-right: auto;
+    
+}
+
+.beneficiary-text{
+font-family: 'Open Sans', sans-serif;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 30px;
+font-size: 1em;
+line-height: 2em;
+text-align: left;
+}
+
+.beneficiaryinfo{
+    background-image: url(imagestwo/white-mountaintwo.png); 
+    background-position: bottom;
+    background-color: #1c1c1a;
+    background-size: cover;
+}
+
+.application-process{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1.em;
+    color: #ffff;  
+}
+
+.members-info{
+font-family: 'Open Sans', sans-serif;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 30px;
+font-size: 1em;
+line-height: 2em;
+text-align: left;
+color: #ffff;  
+}
+
+.application-reviewing{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1.em;
+    color: #1c1c1a;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+
+.application-process{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1.em;
+    color: #ffff;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.meetcarolbg{
+    background-image: url(imagestwo/another-mountain-two.png); 
+    background-position: bottom;
+    background-color: #1c1c1a;
+    background-size: cover;
+}
+
+.btn-update-info {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+    color: #ffff;
+    background-color: #9c552b;
+    border-color: transparent;
+    margin: 7.5%;
+}
