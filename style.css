@@ -182,6 +182,13 @@ a:hover{
 }
 
 .meetcarolbg{
+    background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain%202.png); 
+    background-position: bottom;
+    background-color: #1c1c1a;
+    background-size: cover;
+}
+
+.gumalatrustbg{
     background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain%202.png), url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/background-gradient-img.png); 
     background-position: bottom;
     background-color: #1c1c1a;
@@ -369,6 +376,8 @@ color: #ffff;
     background-position: bottom;
     background-color: #1c1c1a;
     background-size: cover;
+}
+
 }
 
 .btn-update-info {
