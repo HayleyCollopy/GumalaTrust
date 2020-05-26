@@ -9,10 +9,9 @@ Template Name: BENEFICIARIES Page
       
      <!--       WELCOME CONTAINER START-->
       <section class="container-fluid aboutbg text-center notfooter">
-          
-          <div class="container">
+           <div class="container">
               
-                <h2><?php the_field('titleforbeneficiaries'); ?></h2><!--  custom field for the aboutme content-->
+                <div class="beneficiaries-header"><h2><?php the_field('titleforbeneficiaries'); ?></h2>
     
                <p class="sub-title-beneficiary"><?php the_field('subtitleforbeneficiary'); ?></p>
               
@@ -25,7 +24,7 @@ Template Name: BENEFICIARIES Page
               
 <!--              BUTTON-->
               <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/joint-application-for-beneficiary-status_membership.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-primary">BECOME A BENEFICIARY</button></a>
-        </div>
+               </div></div>
                     
       </section>
           
@@ -72,9 +71,13 @@ Template Name: BENEFICIARIES Page
                       <p class="application-reviewing"><?php the_field('updatinginformation'); ?></p>
                       
                        <p class="beneficiary-text"><?php the_field('membersinformation'); ?></p>
+
                       
-                       <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/personal-information-form.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-update-info">UPDATE INFORMATION</button></a>
+                      <div class="text-left">
+                      <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/personal-information-form.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-primary text-left">UPDATE INFORMATION</button></a>
           
+            
+        </div>
           
                   </div>      
               </div>
