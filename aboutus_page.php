@@ -10,8 +10,9 @@ Template Name: About Us Gumala
 <!--       ABOUT US CONTAINER START-->
       <section class="container-fluid aboutbg text-center notfooter">
           <div class="container ">
-              <div class="welc"><h2>ABOUT US</h2></div>
-              <p class="welcome-text">The naming of the Gumala Foundation has an important meaning. In Bunjima language, Gumala means “all together”. This name is used because the three language groups – Bunjima, Yinhawangka and Nyiyaparli – combined to negotiate the Yandi Land Use Agreement (YLUA) and the General Gumala Foundation Trust Deed (Trust Deed).</p>
+              <div class="welc"><h2><?php the_field('titleforaboutus'); ?></h2></div>
+              
+              <p class="welcome-text"><?php the_field('paragraphforaboutusone'); ?></p>
 
                   <p class="welcome-text">This historic YLUA signed in 1997 by Hamersley Iron Pty Ltd (now owned by Rio Tinto) was the first of its kind in Western Australia, enabling mining activity on Traditional Land in exchange for compensation paid to the Traditional Owners. The Trust Deed was signed in the same year.</p>
 
