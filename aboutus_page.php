@@ -8,7 +8,7 @@ Template Name: About Us Gumala
 <?php include (TEMPLATEPATH . '/new_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 
 <!--       ABOUT US CONTAINER START-->
-      <section class="container-fluid aboutbg text-center notfooter">
+      <section class="container-fluid aboutimagebg text-center notfooter">
           <div class="container ">
               <div class="welc"><h2><?php the_field('titleforaboutus'); ?></h2></div>
               
