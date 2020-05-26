@@ -18,9 +18,9 @@
               <p>TERMS &amp; CONDITIONS</p>
                   </div>
               </div>
-
+              
               </div>
-        <div class="footerbox text-center">
+                      <div class="footerbox text-center">
           <p>The Gumala Trust (GIPL) © 2020</p>
           </div>
 
