@@ -56,7 +56,7 @@ If you have recently turned 18, you are encouraged to put in a joint application
  <section class="container-fluid meetcarolbg notfooter">
           <div class="container">
               <div class="row">
-                  <div class="trustlogo"><img src="images/gumala-logo-icon.png"></div>
+                  <div class="trustlogo"><img src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></div>
                   
                   <div class="col-md-6 meet-responsive">
                  <h4 class="application-process">Our Application Reviewing Process</h4>
@@ -70,7 +70,7 @@ The GIPL Board approves Beneficiary status. The GAC Board approve Memberships. F
             </div>
                   
                   <div class="col-md-6 meet-responsive">
-                      <img class="img-responsive" alt="carol" src="images/application-image-three.png">
+                      <img class="img-responsive" alt="carol" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/application-image-three.png">
                   </div>
                   
               </div>
@@ -82,7 +82,7 @@ The GIPL Board approves Beneficiary status. The GAC Board approve Memberships. F
               <div class="row">
                   
                   <div class="col-md-6 meet-responsive">
-                  <img class="img-responsive" alt="david" src="images/members-image.png">
+                  <img class="img-responsive" alt="david" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/members-image.png">
                   </div>
                   
                   <div class="col-md-6 meet-responsive">
