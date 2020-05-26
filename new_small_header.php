@@ -59,8 +59,8 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="images/maybe-finallogo-01.png">   
-        <img src="images/maybe-finallogo-01.png" alt="main logo"></a> <!--        ?????-->
+      <a class="navbar-brand" href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/maybe-finallogo-01.png">   
+        <img src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/maybe-finallogo-01.png" alt="main logo"></a> <!--        ?????-->
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
