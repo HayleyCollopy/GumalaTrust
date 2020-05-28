@@ -42,4 +42,11 @@
     
 }
 
+@media only screen and (max-width:630px){
+    
+    .h1 {
+        width: 100%;
+    }
+}
+
 Press Shift + Tab to navigate to chat history.
