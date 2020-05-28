@@ -52,7 +52,7 @@ a:hover{
     font-weight: 800;
     font-family: 'Open Sans', sans-serif;
         padding: 15px 30px;
-    padding-top: 50px;
+    padding-top: 55px;
 }
 
 .navbar-toggle{
@@ -99,7 +99,7 @@ a:hover{
 
 
 .navbar-brand>img{
-    width: 150px;
+    width: 250px;
 }
 
 .small_header{
