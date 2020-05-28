@@ -401,3 +401,9 @@ color: #ffff;
     background-color: #9c552b;
     border-color: transparent;
 }
+
+.copyrighttext{
+    font-family: 'Open Sans', sans-serif;
+    color: lightgray;
+    font-weight: 100;
+}
