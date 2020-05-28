@@ -15,7 +15,7 @@
               <p>CONTACT US</p>
                   </div>
                 <div class="footerbox col-xs-6 text-center">
-              <p>TERMS &amp; CONDITIONS</p>
+              <p>POLICIES</p>
                   </div>
               </div>
               
