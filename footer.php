@@ -9,7 +9,7 @@
               </div>
               
               
-              <div class="row">
+              <div class="row footerbox">
                   
               <div class="footerbox col-xs-6 text-center">
               <p>CONTACT US</p>
@@ -20,7 +20,7 @@
               </div>
               
               </div>
-                      <div class="footerbox text-center">
+            <div class="row footerbox text-center">
           <p>The Gumala Trust (GIPL) © 2020</p>
           </div>
 
