@@ -21,7 +21,7 @@
               
               </div>
             <div class="row footerbox text-center">
-          <p>The Gumala Trust (GIPL) © 2020</p>
+          <p class="copyrighttext">The Gumala Trust (GIPL) © 2020</p>
           </div>
 
           
