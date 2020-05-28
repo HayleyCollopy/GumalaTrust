@@ -12,12 +12,13 @@
 }
 
 
-@media (max-width: 950px) {
+@media (max-width: 1060px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
     .navbar-collapse.collapse.in {
         display: block !important;
+        padding-top: 50px;
     }
     .navbar-header .collapse, .navbar-toggle {
         display:block !important;
