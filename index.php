@@ -27,7 +27,7 @@ wp_reset_query();?>
       </section>
       <!--       WELCOME CONTAINER END-->
       
-      <section class="container-fluid meetcarolbg notfooter">
+      <section class="container-fluid meetcarolbg">
           <div class="container">
               <div class="row">
                   <div class="trustlogo"><img src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></div>
@@ -59,7 +59,7 @@ $queried_post = get_post($post_id);?>
           </div>
       </section>
       
-      <section class="container-fluid meetdavidbg notfooter">
+      <section class="container-fluid meetdavidbg">
           <div class="container">
               <div class="row">
                   
