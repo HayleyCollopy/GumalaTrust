@@ -67,7 +67,6 @@
 	<?php endif; ?>
 </article>
 </section>
-<?php get_sidebar(); /* Tells WordPress to include sidebar.php */ ?>
      </div>
     </div>
   </div>
