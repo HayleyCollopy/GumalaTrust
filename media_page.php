@@ -4,6 +4,13 @@
     */
     ?>
 <?php include (TEMPLATEPATH . '/new_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
+
+<section class="container-fluid text-center notfooter">
+          <div class="container ">
+              <div class="mediatitle"><h2>MEDIA</h2></div>        
+    </div>
+</section>
+
 <div class="container-fluid main-content">
 	<section class="container">
         <div class="row">
@@ -27,11 +34,12 @@ if ( $arr_posts->have_posts() ) :
    
     <div class="postblock"></div>
         
-                <h2><?php the_title();?></h2>
-<?php the_post_thumbnail(); ?>
-<div class="excerpt"> <?php the_excerpt(); ?></div>
-  <a href="<?php the_permalink(); ?>">Read More</a>
+                <h3 class="posttitle"><?php the_title();?></h3>
 
+<div class="excerpt"> <?php the_excerpt(); ?></div>
+  <a class="seemorepost" href="<?php the_permalink(); ?>">Read More</a>
+<?php the_post_thumbnail(); ?>
+            <div class="postendborder"></div>
         </section>
         <?php
     endwhile;
