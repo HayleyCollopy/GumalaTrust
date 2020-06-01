@@ -7,7 +7,7 @@
 <div class="container-fluid main-content">
 	<section class="container">
         <div class="row">
-
+<div class="col-md-9 postexcerpt">
 <?php
  
 $args = array(
@@ -23,16 +23,15 @@ if ( $arr_posts->have_posts() ) :
         ?>
 
         <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-    <div class="col-sm-4 postimage">
- <?php the_post_thumbnail(); ?>
-           
-   </div>
-   <article class="col-sm-8 postexcerpt">
+   
+   
     <div class="postblock"></div>
+        
                 <h2><?php the_title();?></h2>
+<?php the_post_thumbnail(); ?>
 <div class="excerpt"> <?php the_excerpt(); ?></div>
   <a href="<?php the_permalink(); ?>">Read More</a>
-</article>
+
         </section>
         <?php
     endwhile;
@@ -40,7 +39,8 @@ endif;
 
  
 ?> 
-    	
+            </div>
+            <?php get_sidebar(); /* Tells WordPress to include sidebar.php */ ?>
 
         </div>
             </section>
