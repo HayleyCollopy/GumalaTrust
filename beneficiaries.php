@@ -17,7 +17,7 @@ Template Name: BENEFICIARIES Page
               
               <p class="beneficiary-text"><?php the_field('beneficiarytext'); ?></p>
 
-            <ul class="beneficiary-text"><?php the_field('beneficiarytexttwo'); ?></ul> 
+            <ul class="beneficiary-text-list"><?php the_field('beneficiarytexttwo'); ?></ul> 
               
               <p class="beneficiary-text"><?php the_field('beneficiarytextthree'); ?></p>
        
@@ -73,8 +73,9 @@ Template Name: BENEFICIARIES Page
                        <p class="beneficiary-text"><?php the_field('membersinformation'); ?></p>
 
                       
-                      <div class="text-left">
-                      <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/personal-information-form.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-primary text-left">UPDATE INFORMATION</button></a>
+                      <div class="text-center">
+                      <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/personal-information-form.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-primary text-center">UPDATE INFORMATION</button></a>
+                 
           
             
         </div>
