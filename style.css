@@ -407,3 +407,77 @@ color: #ffff;
     color: #9c552b;
     font-weight: 100;
 }
+
+
+
+.contactus{
+width: 100%;
+height: 15px;
+border-bottom: 1px solid #1c1c1a;
+text-align: center;
+
+}
+
+.contactus h2 {
+padding: 0 10px;
+background-color: #ffffff;
+width: 190px;
+margin-left: auto;
+margin-right: auto;
+	margin-top: 50px;
+	
+	
+}
+
+
+
+.contactheader{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1em;
+    color:black;
+}
+.contactp{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    color: black;
+    letter-spacing: .8px;
+}
+
+
+.contactinfobg{
+  
+    background-color: #1c1c1a;
+    background-size: cover;
+}
+
+.info{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size:1.em;
+    color: #ffff;
+	text-align: center;
+	margin-top: 50px;
+	
+}
+
+.contactinfo{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 10px;
+    font-size: .8em;
+    color: #ffff;
+    letter-spacing: .8px;
+}
+
+.col-sm-4{
+    margin-top: 5%;
+    margin-bottom 10%;
+	
+}
+
+.greytext{
+	color:#b7b7b7;
+}
