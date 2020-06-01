@@ -68,7 +68,7 @@
         'items_wrap'=>'%3$s',
         'container' => false,
         'list_item_class' => "nav-item",
-        'link_class' => "nav-link",
+        'link_class' => "nav-link navbutton",
 )); ?>
 </ul>
 
