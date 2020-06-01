@@ -333,6 +333,16 @@ line-height: 2em;
 text-align: left;
 }
 
+.beneficiary-text-list{
+font-family: 'Open Sans', sans-serif;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 30px;
+font-size: 1em;
+line-height: 2em;
+text-align: left;
+}
+
 .beneficiaryinfo{
     background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountaintwo.png); 
     background-position: bottom;
@@ -385,21 +395,14 @@ color: #ffff;
 
 }
 
-.btn-update-info {
-    font-family: 'Open Sans', sans-serif;
-    margin-top: 30px;
-    color: #ffff;
-    background-color: #9c552b;
-    border-color: transparent;
-    padding-left: 7.5%;
-}
 
-.btn-primary {
+.btn-primary-two {
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
     color: #ffff;
     background-color: #9c552b;
     border-color: transparent;
+    margin: 7.5%
 }
 
 .copyrighttext{
