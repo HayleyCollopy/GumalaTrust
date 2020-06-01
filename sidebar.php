@@ -4,8 +4,5 @@
     <ul id="sidebar">
         <?php dynamic_sidebar( 'sidebar1' ); ?>
     </ul>
-<?php endif; ?>
-     
-     
-           
-   </div>    
+<?php endif; ?>      
+   </div>
