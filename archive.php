@@ -3,12 +3,13 @@
 	<section class="container">
         <div class="row">
 <section class="archive col-md-9">
-        <h1>ARCHIVE.PHP</h1>
+        <h1 class="searchtitle">Archived</h1>
 
         <?php
            the_archive_title( '<h2 class="page-title">', '</h2>' );
            the_archive_description( '<div class="taxonomy-description">', '</div>' );
         ?>
+                    <div class="archiveendborder"></div>
         <!-- Post Loop -->
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
