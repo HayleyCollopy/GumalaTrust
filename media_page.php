@@ -1,6 +1,6 @@
 <?php
     /*
-    Template Name: Media
+    Template Name: MEDIA
     */
     ?>
 <?php include (TEMPLATEPATH . '/new_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
