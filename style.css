@@ -615,3 +615,42 @@ select{
 .singleimg{
     padding-top: 50px;
 }
+
+.page-title{
+    padding: 0 10px;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+}
+
+.archiveendborder{
+    width: 100%;
+    height: 15px;
+    border-bottom: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.archive h4{
+    padding-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    margin-top: 50px;
+    color: #828282;
+}
+
+small{
+        padding-bottom: 40px;
+    padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8em;
+    color: #9c552b;
+    letter-spacing: 1px;
+    display: block;
+}
+
+.main-content{
+    padding-bottom: 70px;
+}
