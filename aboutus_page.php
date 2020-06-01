@@ -63,7 +63,7 @@ Template Name: About Us Gumala
                   </div>
                   
                   <div class="text-center">
-                  <button type="button" class="btn btn-primary text-center">SEE BOARD OF DIRECTORS</button>
+                  <button href="http://206.189.45.97/~mesh4/?page_id=394" type="button" class="btn btn-primary text-center">SEE BOARD OF DIRECTORS</button>
               </div>
               </div>
           </div>
