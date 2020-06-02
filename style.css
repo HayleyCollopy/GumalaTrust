@@ -677,3 +677,28 @@ small{
     font-weight: 800;
     margin-top: 90px;
 }
+
+.name{
+    padding: 0 10px;
+    font-size: 1.5em;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+.role{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 800;
+    color: #9c552b;
+}
+
+.committees{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+}
+
+.board-desc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    line-height: 2em;
+}
