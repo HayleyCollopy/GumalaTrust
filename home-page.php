@@ -14,6 +14,7 @@ Template Name: Home page gumala
 
 <!--      PLACE HOLDER FOR WELCOME-->
               <h2><?php the_field('titleforwelcome'); ?></h2><!--  custom field for the aboutme content-->
+              <p class="welcome-text"><?php the_field('thanarru'); ?></p>
               <p class="welcome-text"><?php the_field('paragraphforwelcome'); ?></p>
               <p class="welcome-text"><?php the_field('secondparagraphforwelcome'); ?></p>
               
