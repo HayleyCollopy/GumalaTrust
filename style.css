@@ -329,7 +329,6 @@ padding: 0 10px;
 font-family: 'Open Sans', sans-serif;
 margin-left: 40px;
 margin-right: 40px;
-margin-top: 30px;
 font-size: 1em;
 line-height: 2em;
 text-align: left;
@@ -374,7 +373,6 @@ color: #ffff;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size:1.em;
-    color: #1c1c1a;
     margin-top: 80px;
     margin-left: 40px;
 }
@@ -701,4 +699,19 @@ small{
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
     line-height: 2em;
+}
+
+
+
+
+.beneficiary-container{
+    margin-top: 5%;
+}
+
+.beneficiary-container-two{
+    margin-top: 15%;
+}
+
+.img-responsive-two{
+    margin-top: 15%;
 }
