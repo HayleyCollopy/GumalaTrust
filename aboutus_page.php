@@ -17,6 +17,7 @@ Template Name: About Us Gumala
                   <p class="welcome-text"><?php the_field('paragraphforaboutustwo'); ?></p>
 
                       <p class="welcome-text"><?php the_field('paragraphforaboutusthree'); ?></p>
+              <a class="seemore" href="<?php the_field('seemorefoundation'); ?>">About the Gumala Foundation...</a>
         </div>
                     
       </section>
@@ -30,7 +31,7 @@ Template Name: About Us Gumala
                       <h4 class="carol"><?php the_field('titleforgumalatrust'); ?></h4>
                       <p class="carolp"><?php the_field('paragraphforgumalatrust'); ?></p>
                       <p class="carolp"><?php the_field('paragraphforgumalatrusttwo'); ?></p>
-                      <p class="seemore">See more...</p>
+                      <a class="seemore" href="<?php the_field('seemore'); ?>">See more...</a>
           
           
                   </div>
@@ -55,7 +56,6 @@ Template Name: About Us Gumala
                       <h4 class="david"><?php the_field('titleforboardofdirectors'); ?></h4>
                       <p class="davidp"><?php the_field('paragraphforboardofdirectors'); ?></p>
                           <p class="davidp"><?php the_field('paragraphforboardofdirectorstwo'); ?></p>
-                      <p class="seemore">See more...</p>
                       
                         
           
@@ -63,7 +63,7 @@ Template Name: About Us Gumala
                   </div>
                   
                   <div class="text-center">
-                  <button href="http://206.189.45.97/~mesh4/?page_id=394" type="button" class="btn btn-primary text-center">SEE BOARD OF DIRECTORS</button>
+                  <button href="<?php the_field('seemoredirectors'); ?>" type="button" class="btn btn-primary text-center">SEE BOARD OF DIRECTORS</button>
               </div>
               </div>
           </div>
