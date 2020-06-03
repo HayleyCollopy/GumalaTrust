@@ -57,7 +57,13 @@
     
     .application-process{
         margin-left: 0px;
+        text-align: center;
     }
+       
+    .img-responsive-two img{
+        margin:auto;
+    }
+
     
 }
 
