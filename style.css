@@ -259,11 +259,12 @@ footer{
     background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/footer-bg.jpg);
     background-size: cover;
     width: 100%;
+    height: 230px;
     background-position: center center;
 }
 
 .icons{
-    padding-top: 30px;
+    padding-top: 50px;
     padding-bottom: 50px;
     width: 50px;
 }
@@ -701,7 +702,9 @@ small{
     line-height: 2em;
 }
 
-
+.contactusfootertext{
+    font-family: 'Open Sans', sans-serif;
+}
 
 
 .beneficiary-container{
@@ -714,4 +717,11 @@ small{
 
 .img-responsive-two{
     margin-top: 15%;
+}
+
+.footerlogo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50px;
+    padding-top: 10%;
 }
