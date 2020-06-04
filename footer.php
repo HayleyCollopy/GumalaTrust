@@ -16,10 +16,14 @@
               <div class="row footerbox">
                   
               <div class="footerbox col-xs-6 text-center">
-              <p>CONTACT US</p>
+              <p><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('contact_us') ) : 
+endif; ?>
+</p>
                   </div>
                 <div class="footerbox col-xs-6 text-center">
-              <p>POLICIES</p>
+              <p><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('policies_pg') ) : 
+endif; ?>
+</p>
                   </div>
               </div>
               
@@ -32,7 +36,9 @@
                   <a href="https://facebook.com/GumalaTrust"><img class="footerlogo" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></a>
                   </div>
                
-          <p class="copyrighttext">The Gumala Trust (GIPL) © 2020</p>
+          <p class="copyrighttext"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('copyright_text') ) : 
+endif; ?>
+</p>
           </div>
           
       </footer>
