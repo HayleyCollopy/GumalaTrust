@@ -19,7 +19,9 @@ Template Name: Home page gumala
               <p class="welcome-text"><?php the_field('secondparagraphforwelcome'); ?></p>
               
 <!--              BUTTON-->
-              <button type="button" class="btn btn-primary">BECOME A BENEFICIARY</button>
+              <a class="btn btn-primary" href="<?php the_field('becomebeneficiary'); ?>">BECOME A BENEFICIARY</a>
+              
+              
         </div>
                     
       </section>
@@ -35,7 +37,7 @@ Template Name: Home page gumala
 
           <h4 class="carol"><?php the_field('titleformeetcarol'); ?></h4>
           <p class="carolp"><?php the_field('paragraphformeetcarol'); ?> </p>
-          <a href="<?php the_field('seemorecarol'); ?>" class="seemore">See more...</a>
+          <a href="<?php the_field('seemorecarol'); ?>" class="seemore">Read more...</a>
                       
                   </div>
                   
@@ -65,7 +67,7 @@ Template Name: Home page gumala
 <!--      PLACE HOLDER FOR POST-->    
                 <h4 class="david"><?php the_field('titleformeetdavid'); ?></h4>
           <p class="davidp"><?php the_field('paragraphformeetdavid'); ?> </p>
-          <a href="<?php the_field('seemoredavid'); ?>" class="seemore">See more...</a>
+          <a href="<?php the_field('seemoredavid'); ?>" class="seemore">Read more...</a>
           
                   </div>      
               </div>
