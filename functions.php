@@ -45,3 +45,52 @@ function sidebar() {
 }
 add_action( 'widgets_init', 'sidebar' );
 ?>
+
+
+<?php
+function contact() {
+
+	register_sidebar( array(
+		'name'          => 'contact us',
+		'id'            => 'contact_us',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'contact' );
+?>
+
+<?php
+function policies() {
+
+	register_sidebar( array(
+		'name'          => 'policies',
+		'id'            => 'policies_pg',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'policies' );
+?>
+
+<?php
+function copyright() {
+
+	register_sidebar( array(
+		'name'          => 'copyright text',
+		'id'            => 'copyright_text',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'copyright' );
+?>
