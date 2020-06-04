@@ -63,7 +63,9 @@ Template Name: About Us Gumala
                   </div>
                   
                   <div class="text-center">
-                  <button href="<?php the_field('seemoredirectors'); ?>" type="button" class="btn btn-primary text-center">SEE BOARD OF DIRECTORS</button>
+                  
+                       <a class="btn btn-primary text-center" href="<?php the_field('seemoredirectors'); ?>">SEE BOARD OF DIRECTORS</a>
+                      
               </div>
               </div>
           </div>
