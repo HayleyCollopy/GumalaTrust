@@ -497,6 +497,10 @@ margin-top: 90px;
     letter-spacing: .8px;
 }
 
+.contactinfo a{
+    color: lightgray;
+}
+
 .col-sm-4{
     margin-top: 5%;
     margin-bottom 10%;
