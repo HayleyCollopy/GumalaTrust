@@ -19,7 +19,7 @@ navbar{
 }
 
 a{
-    color: #1c1c1a;
+    color: black;
 }
 
 a:hover{
@@ -459,6 +459,10 @@ margin-top: 90px;
 	text-align: center;
 	margin-top: 50px;
 	
+}
+
+.contactinfo a{
+    color: lightgray;
 }
 
 .contactinfo{
