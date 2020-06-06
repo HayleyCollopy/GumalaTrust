@@ -75,20 +75,10 @@ Template Name: CONTACT Page
               <div class="row">
                   
                   
-                  
-<?php
-global $more;//define a global variable
-$more = 0;// the global varibale is now equal to 0
-query_posts('cat=8');//look for posts that have the category of 2
-if(have_posts()) ://if we have posts to display
-while(have_posts()) :the_post();//LOOP through all the posts and find the one that has a category of 2 get thet title and content
-?>
-<p class="text-center info"><a class="info" href="<?php the_permalink(); ?>"><?php the_title();?></a></p> 
-            <div class="contactinfo"><p><?php the_content() ?></p></div>
-<?php
-endwhile;
-endif;
-wp_reset_query();?>
+                
+<p class="text-center info"><?php the_field('gumalatrusttitletwo'); ?></p> 
+            <div class="contactinfo"><p><?php the_field('gumalatrusttext'); ?></p></div>
+
 
                   
                   
