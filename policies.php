@@ -13,11 +13,11 @@ Template Name: BENEFICIARIES Page
               
               <div class="beneficiary"><h2><?php the_field('titleforpolicies'); ?></h2>
                   
-                     <div class="sub-title-beneficiary"><h2><?php the_field('subtitleforpolicies'); ?></h2>
-               
+                         <p class="sub-title-beneficiary"><?php the_field('subtitleforpolicies'); ?></p> 
+                         
                    <p class="beneficiary-text"><?php the_field('privacypolicytext'); ?></p>                
  
-        </div>  </div> </div>
+        </div>  </div>
                     
       </section>
           
