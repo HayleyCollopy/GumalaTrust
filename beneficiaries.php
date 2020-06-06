@@ -15,15 +15,26 @@ Template Name: BENEFICIARIES Page
     
                <p class="sub-title-beneficiary"><?php the_field('subtitleforbeneficiary'); ?></p>
               
-              <p class="beneficiary-text"><?php the_field('beneficiarytext'); ?></p>
+              <p class="beneficiary-text"><?php the_field('beneficiarytextparaone'); ?></p>
+            <p class="beneficiary-text"><?php the_field('beneficiarytextparatwo'); ?></p>
+                    
 
-            <ul class="beneficiary-text-list"><?php the_field('beneficiarytexttwo'); ?></ul> 
+            <ul class="beneficiary-text-list"><?php the_field('listlineone'); ?></ul> 
+                    <ul class="beneficiary-text-list"><?php the_field('listlinetwo'); ?></ul> 
+                    <ul class="beneficiary-text-list"><?php the_field('listlinethree'); ?></ul> 
+                    <ul class="beneficiary-text-list"><?php the_field('listlinefour'); ?></ul> 
+                    <ul class="beneficiary-text-list"><?php the_field('listlinefive'); ?></ul> 
+                    <ul class="beneficiary-text-list"><?php the_field('listlinesix'); ?></ul> 
               
-              <p class="beneficiary-text"><?php the_field('beneficiarytextthree'); ?></p>
+     <p class="beneficiary-text"><?php the_field('textparagraphone'); ?></p>
+                    
+    <p class="beneficiary-text"><?php the_field('textparagraphtwo'); ?></p>
        
               
 <!--              BUTTON-->
-              <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/joint-application-for-beneficiary-status_membership.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-primary">BECOME A BENEFICIARY</button></a>
+
+                    
+              <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/joint-application-for-beneficiary-status_membership.pdf" download="Gumala Beneficiary Application" class="btn btn-primary">BECOME A BENEFICIARY</a>
                </div></div>
                     
       </section>
