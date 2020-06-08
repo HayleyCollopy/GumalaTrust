@@ -8,7 +8,7 @@ Template Name: Board of Directors
 
 <section class="container-fluid text-center">
           <div class="container ">
-              <div class="bodtitle"><h2><?php the_field('boardofdirectorstitle'); ?></h2></div>
+              <div class="beneficiary"><h2><?php the_field('boardofdirectorstitle'); ?></h2></div>
               <p class="welcome-text"><?php the_field('bodparagraphone'); ?></p>
 
               <p class="welcome-text"><?php the_field('bodparagraphtwo'); ?></p>
