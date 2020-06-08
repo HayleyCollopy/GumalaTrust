@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: BENEFICIARIES Page
+Template Name: Policies Page
 */
 ?>
 
