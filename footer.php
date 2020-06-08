@@ -7,16 +7,14 @@
 <!--      FOOTER STARTS-->
       <footer class="container-fluid">
           <div class="footer-content">
-              <div class="text-center">
+              <div class="text-center icons">
                   
                   
             
                   
                   <!--              SOCIAL MEDIA ICONS GO HERE-->
-              <a class="icons"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footericonone') ) : 
-endif; ?></a>
-              <a href="https://au.linkedin.com/company/gumala-trust"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/linkedin%20icon.png"></a>
-              <a href="mailto:gipl@gumalatrust.com"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/mail_icon.png"></a>
+              <a class="icons text-center icons"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_one') ) : 
+endif; ?></a>           
               </div>
               
               
@@ -28,7 +26,7 @@ endif; ?>
 </p>
                   </div>
                 <div class="footerbox col-xs-6 text-center">
-                    <a class="footertext">
+                    <a class="footertext footerbox">
                         <p><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('policies_pg') ) : 
 endif; ?>
 </p></a>
@@ -38,7 +36,7 @@ endif; ?>
               </div>
           
           
-           <div class="row footerbox text-center">
+           <div class="row text-center">
                
                 <div class="col-md-6img footerlogo">
                   <a><img class="footerlogo" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></a>
