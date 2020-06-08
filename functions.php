@@ -31,7 +31,6 @@ add_filter('nav_menu_css_class', 'add_menu_list_item_class', 1, 3);
 
 ?>
 
-<!--MEDIA SIDEBAR START-->
 <?php
 function sidebar() {
 
@@ -47,8 +46,7 @@ function sidebar() {
 }
 add_action( 'widgets_init', 'sidebar' );
 ?>
-<!--MEDIA SIDEBAR END-->
-<!--FOOTER START-->
+
 <?php
 function contact() {
 
@@ -95,4 +93,20 @@ function copyright() {
 
 }
 add_action( 'widgets_init', 'copyright' );
-?><!--FOOTER END-->
+?>
+
+<?php
+function footericonone() {
+
+	register_sidebar( array(
+		'name'          => 'footer icon one',
+		'id'            => 'footer_icon_one',
+		'before_widget' => '<div>',
+		'after_widget'  => '</div>',
+		'before_title'  => '<h2 class="rounded">',
+		'after_title'   => '</h2>',
+	) );
+
+}
+add_action( 'widgets_init', 'footericonone' );
+?>
