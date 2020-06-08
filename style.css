@@ -297,7 +297,7 @@ footer{
      font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size:1.em;
-    margin-top: 80px;
+    margin-top: 30px;
     margin-left: 40px;
 }
 
@@ -319,7 +319,7 @@ text-align: center;
 .beneficiary h2:before,
 .beneficiary h2:after {
     content: '';
-    border-top: 2px solid;
+    border-top: 1px solid;
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
@@ -330,7 +330,7 @@ text-align: center;
 
 .beneficiary h2 {
 display: flex;
-    width: 95%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -345,6 +345,42 @@ display: flex;
     font-weight: 800;
     margin-top: 90px;
     
+}
+
+.policythetitle h2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.policythetitle h2:before,
+.policythetitle h2:after {
+    content: '';
+    border-top: 1px solid;
+    margin: 0 20px 0 0;
+    flex: 1 0 20px;
+}
+
+.beneficiary h2:after {
+    margin: 0 0 0 20px;
+}
+
+.policythetitle h2 {
+display: flex;
+width: 80%;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 10px;
+background-color: #ffffff;
+margin-left: auto;
+margin-right: auto;
+font-size: 1.5em;
+font-family: 'Open Sans', sans-serif;
+font-weight: 800;
+margin-top: 90px;
 }
 
 .benef h2{
@@ -794,8 +830,8 @@ text-align: left;
 
 .privacy-policy p{
 font-family: 'Open Sans', sans-serif;
-margin-left: 40px;
-margin-right: 40px;
+margin-left: 190px;
+margin-right: 190px;
 margin-top: 30px;
 font-size: 1em;
 line-height: 2em;
