@@ -26,7 +26,7 @@ endif; ?>
 </p>
                   </div>
                 <div class="footerbox col-xs-6 text-center">
-                    <a class="footertext">
+                    <a class="footertext footerbox">
                         <p><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('policies_pg') ) : 
 endif; ?>
 </p></a>
@@ -36,7 +36,7 @@ endif; ?>
               </div>
           
           
-           <div class="row footerbox text-center">
+           <div class="row text-center">
                
                 <div class="col-md-6img footerlogo">
                   <a><img class="footerlogo" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></a>
