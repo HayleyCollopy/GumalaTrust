@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Policies Page
+Template Name: POLICIES Page
 */
 ?>
 
