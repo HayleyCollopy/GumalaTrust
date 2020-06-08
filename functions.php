@@ -110,35 +110,3 @@ function footericonone() {
 }
 add_action( 'widgets_init', 'footericonone' );
 ?>
-
-<?php
-function footericontwo() {
-
-	register_sidebar( array(
-		'name'          => 'footer icon two',
-		'id'            => 'footer_icon_two',
-		'before_widget' => '<div>',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="rounded">',
-		'after_title'   => '</h2>',
-	) );
-
-}
-add_action( 'widgets_init', 'footericontwo' );
-?>
-
-<?php
-function footericonthree() {
-
-	register_sidebar( array(
-		'name'          => 'footer icon three',
-		'id'            => 'footer_icon_three',
-		'before_widget' => '<div>',
-		'after_widget'  => '</div>',
-		'before_title'  => '<h2 class="rounded">',
-		'after_title'   => '</h2>',
-	) );
-
-}
-add_action( 'widgets_init', 'footericonthree' );
-?>
