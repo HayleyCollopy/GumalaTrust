@@ -11,7 +11,7 @@ Template Name: POLICIES Page
       <section class="container-fluid aboutbg text-center notfooter">
     <div class="privacy-policy">
               
-              <div class="beneficiary"><h2><?php the_field('titleforpolicies'); ?></h2>
+              <div class="policythetitle"><h2><?php the_field('titleforpolicies'); ?></h2>
                   
                          <p class="sub-title-beneficiary"><?php the_field('subtitleforpolicies'); ?></p> 
                          
