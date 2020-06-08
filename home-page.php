@@ -13,7 +13,7 @@ Template Name: Home page gumala
           <div class="container ">    
 
 <!--      PLACE HOLDER FOR WELCOME-->
-              <h2><?php the_field('titleforwelcome'); ?></h2><!--  custom field for the aboutme content-->
+              <div class="beneficiary"><h2><?php the_field('titleforwelcome'); ?></h2><!--  custom field for the aboutme content-->
               <p class="welcome-text"><?php the_field('thanarru'); ?></p>
               <p class="welcome-text"><?php the_field('paragraphforwelcome'); ?></p>
               <p class="welcome-text"><?php the_field('secondparagraphforwelcome'); ?></p>
@@ -22,7 +22,7 @@ Template Name: Home page gumala
               <a class="btn btn-primary" href="<?php the_field('becomebeneficiary'); ?>">BECOME A BENEFICIARY</a>
               
               
-        </div>
+        </div></div>
                     
       </section>
       <!--       WELCOME CONTAINER END-->
