@@ -767,7 +767,6 @@ small{
     padding-top: 10%;
 }
 
-<<<<<<< HEAD
 .groupmeetingsinfo p{
 font-family: 'Open Sans', sans-serif;
 margin-left: 40px;
@@ -796,9 +795,6 @@ text-align: left;
 .privacy-policy a{
     color: #9c552b;
 }
-
-=======
->>>>>>> 71f7192eb0311b795b5238716f40d1775c0614a4
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { /* Safari and Chrome */ .contactus { width: 100%;
 height: 0%;
