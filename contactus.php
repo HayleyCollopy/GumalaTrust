@@ -23,7 +23,12 @@ Template Name: CONTACT Page
                       
                        <p class="contactheader"><?php the_field('gumalatrusttitle'); ?></p>
                       
-  <p class="contactp"><?php the_field('gumalatrustcontact'); ?></p>
+                      <p class="contactp"><?php the_field('gumalatrustaddress'); ?></p>
+                      <p class="contactp"><?php the_field('gumalatrustphone'); ?></p>
+                      <p class="contactp"><?php the_field('gumalatrustfacsimile'); ?></p>
+                      <p class="contactp"><?php the_field('gumalatrustemail'); ?></p>
+                      <p class="contactp"><?php the_field('gumalatrustpostal'); ?></p>
+                      <p class="contactp"><?php the_field('gumalatrustabn_acn'); ?></p>
                       
           
                   </div>
@@ -31,7 +36,11 @@ Template Name: CONTACT Page
                         
                         <p class="contactheader"><?php the_field('gumalacorptitle'); ?></p>
                         
-                        <p class="contactp"><?php the_field('gumalacorpcontact'); ?></p>
+                        <p class="contactp"><?php the_field('gumalacorpaddress'); ?></p>
+                        <p class="contactp"><?php the_field('gumalacorpphone'); ?></p>
+                        <p class="contactp"><?php the_field('gumalacorpemail'); ?></p>
+                        <p class="contactp"><?php the_field('gumalacorppostal'); ?></p>
+                        <p class="contactp"><?php the_field('gumalacorpabn_acn'); ?></p>
              
           
                   </div>
@@ -39,7 +48,11 @@ Template Name: CONTACT Page
                           
                           <p class="contactheader"><?php the_field('gumalaenterprisetitle'); ?></p>
                           
-                          <p class="contactp"><?php the_field('gumalaenterprisecontact'); ?></p>
+                          <p class="contactp"><?php the_field('gumalaenterpriseaddress'); ?></p>
+                          <p class="contactp"><?php the_field('gumalaenterprisephone'); ?></p>
+                          <p class="contactp"><?php the_field('gumalaenterpriseemail'); ?></p>
+                          <p class="contactp"><?php the_field('gumalaenterprisepostal'); ?></p>
+                          <p class="contactp"><?php the_field('gumalaenterpriseabn_acn'); ?></p>
                     
           
                   </div>
@@ -59,22 +72,15 @@ Template Name: CONTACT Page
       
       <section class="container-fluid contactinfobg notfooter">
           <div class="container">
-              
-              <p class="info"><?php the_field('gumalatrusttitletwo'); ?></p>
-			 
               <div class="row">
-				  
-                  <!--<div class="trustlogo2"><img src="images/gumala-logo-icon2.png"></div>-->
                   
-              <p class="contactinfo">If you have any questions about your benefits and how you can access them, please contact us via phone on 08 9287 3900, email us at <span style="color:#b7b7b7">
-<a class="greytext" href="mailto:gipl@gumalatrust.com"> gipl@gumalatrust.com</a></span> or complete the enquiry form and we will respond to you via email.
-<br>
-				  <br>For further information about Gumala Member programs, please contact Gumala Aboriginal Corporation via phone on 1800 486 252 or email <span style="color:#b7b7b7"><a class="greytext" href="mailto:info@gumala.com.au"> info@gumala.com.au</a></span>
-<br>
-				  <br>If you are already a Beneficiary or a Member and would like to update your personal details, we encourage you to fill out a <span style="color:#b7b7b7"><a class="greytext" href="/imagestwo/personal-information-form.pdf" download="Gumala Beneficiary Application">Personal Information Form.</a></span></p>   
                   
-                  <div class="col-md-6img meet-responsive">
-                  </div>
+                
+<p class="text-center info"><?php the_field('gumalatrusttitletwo'); ?></p> 
+            <div class="contactinfo"><p><?php the_field('gumalatrusttext'); ?></p></div>
+
+
+                  
                   
               </div>
           </div>
