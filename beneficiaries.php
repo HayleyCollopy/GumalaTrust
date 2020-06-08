@@ -11,7 +11,7 @@ Template Name: BENEFICIARIES Page
       <section class="container-fluid aboutbg text-center notfooter">
            <div class="container">
               
-                <div class="beneficiaries-header"><h2><?php the_field('titleforbeneficiaries'); ?></h2>
+                <div class="beneficiary"><h2><?php the_field('titleforbeneficiaries'); ?></h2>
     
                <p class="sub-title-beneficiary"><?php the_field('subtitleforbeneficiary'); ?></p>
               
