@@ -12,7 +12,7 @@ Template Name: CONTACT Page
           
           <div class="container ">
               
-               <div class="contactus"><h2><?php the_field('titleforcontact'); ?></h2>
+               <div class="beneficiary"><h2><?php the_field('titleforcontact'); ?></h2>
                
  
                 <div class="container">
