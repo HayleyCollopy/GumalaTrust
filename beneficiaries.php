@@ -33,8 +33,8 @@ Template Name: BENEFICIARIES Page
               
 <!--              BUTTON-->
 
-                    
-              <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/joint-application-for-beneficiary-status_membership.pdf" download="Gumala Beneficiary Application" class="btn btn-primary">BECOME A BENEFICIARY</a>
+                     <a class="btn btn-primary" href="<?php the_field('becomebeneficiarybutton'); ?>">BECOME A BENEFICIARY</a>
+ 
                </div></div>
                     
       </section>
@@ -85,7 +85,9 @@ Template Name: BENEFICIARIES Page
 
                       
                       <div class="text-center">
-                      <a href="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/personal-information-form.pdf" download="Gumala Beneficiary Application"> <button type="button" class="btn btn-primary text-center">UPDATE INFORMATION</button></a>
+                          
+                                <a class="btn btn-primary" href="<?php the_field('updateinfobutton'); ?>">UPDATE INFORMATION</a>
+                          
                  
           
             
