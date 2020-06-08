@@ -13,12 +13,8 @@
             
                   
                   <!--              SOCIAL MEDIA ICONS GO HERE-->
-              <a class="icons row"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_one') ) : 
-endif; ?></a>
-              <a class="icons row"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_two') ) : 
-endif; ?></a>               
-              <a class="icons row"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_three') ) : 
-endif; ?></a>
+              <a class="icons text-center icons"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_one') ) : 
+endif; ?></a>           
               </div>
               
               
