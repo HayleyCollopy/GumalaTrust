@@ -7,16 +7,18 @@
 <!--      FOOTER STARTS-->
       <footer class="container-fluid">
           <div class="footer-content">
-              <div class="text-center">
+              <div class="text-center icons">
                   
                   
             
                   
                   <!--              SOCIAL MEDIA ICONS GO HERE-->
-              <a class="icons"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footericonone') ) : 
+              <a class="icons row"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_one') ) : 
 endif; ?></a>
-              <a href="https://au.linkedin.com/company/gumala-trust"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/linkedin%20icon.png"></a>
-              <a href="mailto:gipl@gumalatrust.com"><img class="icons" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/mail_icon.png"></a>
+              <a class="icons row"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_two') ) : 
+endif; ?></a>               
+              <a class="icons row"><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('footer_icon_three') ) : 
+endif; ?></a>
               </div>
               
               
