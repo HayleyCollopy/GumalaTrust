@@ -1,11 +1,9 @@
 <?php
 /*
-Template Name: About USSS
+Template Name: About Us
 */
 ?>
-
-<?php get_new_small_header(); /* Tells WordPress to include header.php */ ?>
-
+<?php include (TEMPLATEPATH . '/new_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 <div class="container-fluid maincontainer">
     <div class="container">
         <div class="row">
