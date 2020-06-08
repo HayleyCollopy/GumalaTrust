@@ -9,7 +9,7 @@ Template Name: BENEFICIARIES Page
 
 <!--       WELCOME CONTAINER START-->
       <section class="container-fluid aboutbg text-center notfooter">
-    <div class="container">
+    <div class="privacy-policy">
               
               <div class="beneficiary"><h2><?php the_field('titleforpolicies'); ?></h2>
                   
@@ -60,7 +60,7 @@ Template Name: BENEFICIARIES Page
                       
                   </div>
                   
-                  <div class="col-md-6 meet-responsive">
+                  <div class="col-md-6 groupmeetingsinfo">
                       
                        <p class="application-reviewing"><?php the_field('groupmeetingstitle'); ?></p>
                       
