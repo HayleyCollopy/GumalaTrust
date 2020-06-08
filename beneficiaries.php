@@ -19,12 +19,7 @@ Template Name: BENEFICIARIES Page
             <p class="beneficiary-text"><?php the_field('beneficiarytextparatwo'); ?></p>
                     
 
-            <ul class="beneficiary-text-list"><?php the_field('listlineone'); ?></ul> 
-                    <ul class="beneficiary-text-list"><?php the_field('listlinetwo'); ?></ul> 
-                    <ul class="beneficiary-text-list"><?php the_field('listlinethree'); ?></ul> 
-                    <ul class="beneficiary-text-list"><?php the_field('listlinefour'); ?></ul> 
-                    <ul class="beneficiary-text-list"><?php the_field('listlinefive'); ?></ul> 
-                    <ul class="beneficiary-text-list"><?php the_field('listlinesix'); ?></ul> 
+            <ul class="beneficiary-text-list"><?php the_field('listforbeneficiaries'); ?></ul>  
               
      <p class="beneficiary-text"><?php the_field('textparagraphone'); ?></p>
                     
