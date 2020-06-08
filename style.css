@@ -659,7 +659,7 @@ input{
     color: inherit;
 }
 
-ul li{
+ul li p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
     font-size: 1em;
