@@ -1,13 +1,13 @@
 <?php
     /*
-    Template Name: MEDIA
+    Template Name: PUBLICATIONS
     */
     ?>
 <?php include (TEMPLATEPATH . '/new_small_header.php');  /* Tells WordPress to include the smaller header header.php */ ?> 
 
 <section class="container-fluid text-center">
           <div class="container ">
-              <div class="mediatitle"><h2>MEDIA</h2></div>        
+              <div class="beneficiary"><h2>PUBLICATIONS</h2></div>        
     </div>
 </section>
 
