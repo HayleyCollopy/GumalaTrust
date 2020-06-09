@@ -676,6 +676,29 @@ ul li p{
     line-height: 2em;
 }
 
+ul li a{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+.post-date{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 2em;
+    color: #9c552b;
+}
+
+.related-post-date{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1em;
+    line-height: 2em;
+    color: #9c552b;
+}
+
 .screen-reader-text{
     font-family: 'Open Sans', sans-serif;
     font-weight: 100;
