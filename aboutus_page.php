@@ -71,5 +71,17 @@ Template Name: About Us Gumala
           </div>
       </section> 
 
+<div class="aboutusborder"></div>
+
+      <section class="container-fluid text-center notfooter faq">
+          <div class="container faq">
+              <div class="david"><h4><?php the_field('titleforfaq'); ?></h4></div>
+              
+              <p class="davidp"><?php the_field('paragraphforfaq'); ?></p>
+
+              <a class="btn btn-primary text-center" href="<?php the_field('seefaqs'); ?>">SEE FAQ'S</a>
+        </div>
+                    
+      </section>
 
 <?php get_footer(); ?>
