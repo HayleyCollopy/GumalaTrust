@@ -12,7 +12,7 @@
 }
 
 
-@media (max-width: 1060px) {
+@media (max-width: 1150px) {
     .navbar-collapse.collapse {
         display: none !important;
     }
