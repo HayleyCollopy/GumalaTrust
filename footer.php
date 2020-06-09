@@ -18,14 +18,14 @@ endif; ?></a>
               </div>
               
               
-              <div class="row footerbox">
+              <div class="row">
                   
-              <div class="footerbox col-xs-6 text-center">
+              <div class="col-xs-6 footerbox text-center">
               <p><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('contact_us') ) : 
 endif; ?>
 </p>
                   </div>
-                <div class="footerbox col-xs-6 text-center">
+                <div class="col-xs-6 footerbox text-center">
                     <a class="footertext footerbox">
                         <p><?php if ( !function_exists('dynamic_sidebar') || !dynamic_sidebar('policies_pg') ) : 
 endif; ?>
@@ -36,7 +36,7 @@ endif; ?>
               </div>
           
           
-           <div class="row text-center">
+           <div class="row footerbox text-center">
                
                 <div class="col-md-6img footerlogo">
                   <a><img class="footerlogo" src="http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/gumala-logo-icon.png"></a>
