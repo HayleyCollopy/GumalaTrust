@@ -84,7 +84,8 @@ a:hover{
 
 
 .herobg{
-    background: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain-01.png),url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/small_header-bg2.jpg);
+/*     background: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain-01.png),url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/small_header-bg2.jpg); */
+     background:url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/small_header-bg2.jpg);
     background-position: bottom,top;
     background-size: cover;
 }
