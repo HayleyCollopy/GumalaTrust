@@ -40,8 +40,8 @@
     <![endif]-->
     
       <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,800;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
+<!--     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css"> -->
 
       
       
@@ -51,8 +51,11 @@
   <body>
 
       <!--      NAVBAR START-->
-<header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimage ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimage ') . ')"'; } ?>>
-     
+
+ 
+<header class="container-fluid herobg"<?php if ( get_field('headerbackgroundimage') ) { echo 'style="background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain-01.png),url(' . get_field('headerbackgroundimage') . ')"'; } ?>>
+
+
           <nav class="navbar">
   <div class="container-fluid notfooter">
     <div class="navbar-header">
