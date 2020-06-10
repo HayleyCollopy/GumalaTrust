@@ -47,8 +47,12 @@
   <body>
 
       <!--      NAVBAR START-->
-<header class="container-fluid herobg"<?php if ( get_field(' headerbackgroundimagesmall ') ) { echo 'style="background: url(' . get_field(' headerbackgroundimagesmall ') . ')"'; } ?>>
      
+  <header class="container-fluid herobg"<?php if ( get_field('headerbackgroundimagesmall') ) { echo 'style="background-image: url(http://206.189.45.97/~mesh4/wp-content/themes/gumala_trust/images/white-mountain-01.png),url(' . get_field('headerbackgroundimagesmall') . ')"'; } ?>>  
+    
+    
+    
+    
           <nav class="navbar">
   <div class="container-fluid notfooter">
     <div class="navbar-header">
