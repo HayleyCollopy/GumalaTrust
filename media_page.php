@@ -7,7 +7,7 @@
 
 <section class="container-fluid text-center">
           <div class="container ">
-              <div class="beneficiary"><h2>PUBLICATIONS</h2></div>        
+              <div class="beneficiary"><h2><?php the_field('publicationstitle'); ?></h2></div>        
     </div>
 </section>
 
