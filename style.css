@@ -474,8 +474,6 @@ color: #ffff;
     background-size: cover;
 }
 
-}
-
 
 .btn-primary-two {
     font-family: 'Open Sans', sans-serif;
@@ -757,16 +755,6 @@ select{
     color: #828282;
 }
 
-small{
-        padding-bottom: 40px;
-    padding-top: 10px;
-    font-family: 'Open Sans', sans-serif;
-    font-size: .8em;
-    color: #9c552b;
-    letter-spacing: 1px;
-    display: block;
-}
-
 .main-content{
     padding-bottom: 70px;
 }
@@ -885,5 +873,3 @@ text-align: center; }}
 height: 0%;
 border-bottom: 0px;
 text-align: center; }}
-
-
