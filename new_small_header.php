@@ -90,5 +90,4 @@
           <div class="container text-center">
     <div class="small_header"></div>
     </div>
-      
-      </header>
+</header>
