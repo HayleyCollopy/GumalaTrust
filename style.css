@@ -26,14 +26,14 @@ a:hover{
     color: #9c552b;
 }
 
-.trustlogo2 img {
+.trustlogo2 img{
   margin-top: -55%;
     float: right;
     width: 270px;
     
 }
 
-.trustlogo img {
+.trustlogo img{
   margin-top: -9%;
     width: 70px;
 }
@@ -60,7 +60,7 @@ a:hover{
     background-color: transparent;
 }
 
-.navbar-toggle .icon-bar {
+.navbar-toggle .icon-bar{
     display: block;
     width: 35px;
     height: 5px;
@@ -72,7 +72,7 @@ a:hover{
     border-color: transparent !important;
 }
 
-.btn-primary {
+.btn-primary{
     color: #fff !important;
     background-color: #9c552b !important;
     border-color: transparent !important;
@@ -144,14 +144,14 @@ a:hover{
     margin-top: 90px;
 }
 
-.welc {
+.welc{
     width: 100%;
     height: 15px;
     border-bottom: 1px solid #1c1c1a;
     text-align: center;
 }
 
-.welc h2 {
+.welc h2{
     padding: 0 10px;
     background-color: #ffffff;
     width: 160px;
@@ -174,7 +174,7 @@ a:hover{
     line-height: 2em;
 }
 
-.btn-primary {
+.btn-primary{
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
     color: #ffff;
@@ -275,11 +275,6 @@ footer{
     color: white;
 }
 
-/*p {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0 0 0px;*/
-
 .footerbox{
     background-color: #1c1c1a;
 }
@@ -301,14 +296,7 @@ footer{
     margin-left: 40px;
 }
 
-/*.beneficiary{
-width: 100%;
-height: 15px;
-border-bottom: 1px solid #1c1c1a;
-text-align: center;
-}*/
-
-.beneficiary h2 {
+.beneficiary h2{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -317,18 +305,18 @@ text-align: center;
 }
 
 .beneficiary h2:before,
-.beneficiary h2:after {
+.beneficiary h2:after{
     content: '';
     border-top: 1px solid;
     margin: 0 20px 0 0;
     flex: 1 0 20px;
 }
 
-.beneficiary h2:after {
+.beneficiary h2:after{
     margin: 0 0 0 20px;
 }
 
-.beneficiary h2 {
+.beneficiary h2{
 display: flex;
     width: 100%;
     justify-content: center;
@@ -347,7 +335,7 @@ display: flex;
     
 }
 
-.policythetitle h2 {
+.policythetitle h2{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -356,18 +344,18 @@ display: flex;
 }
 
 .policythetitle h2:before,
-.policythetitle h2:after {
+.policythetitle h2:after{
     content: '';
     border-top: 1px solid;
     margin: 0 20px 0 20px;
     flex: 1 0 20px;
 }
 
-.beneficiary h2:after {
+.beneficiary h2:after{
     margin: 0 0 0 20px;
 }
 
-.policythetitle h2 {
+.policythetitle h2{
 display: flex;
 width: 80%;
 justify-content: center;
@@ -475,7 +463,7 @@ color: #ffff;
 }
 
 
-.btn-primary-two {
+.btn-primary-two{
     font-family: 'Open Sans', sans-serif;
     margin-top: 30px;
     color: #ffff;
@@ -500,7 +488,7 @@ text-align: center;
 
 }
 
-.contactus h2 {
+.contactus h2{
 padding: 0 10px;
 background-color: #ffffff;
 width: 190px;
@@ -571,7 +559,7 @@ margin-top: 90px;
     text-align: center;
 }
 
-.mediatitle h2 {
+.mediatitle h2{
     padding: 0 10px;
     background-color: #ffffff;
     width: 160px;
@@ -655,7 +643,7 @@ margin-top: 90px;
     color: #828282;
 }
 
-label {
+label{
     display: inline-block;
     max-width: 100%;
     margin-bottom: 5px;
