@@ -47,7 +47,7 @@ endif;
  
 ?> 
             </div>
-            <?php get_sidebar(); /* Tells WordPress to include sidebar.php */ ?>
+<?php get_sidebar(); /* Tells WordPress to include sidebar.php */ ?>
 
         </div>
             </section>
