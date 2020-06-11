@@ -9,7 +9,7 @@
       <link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/_/img/favicon.ico">
       
       <title>
-      <?php
+<?php
 		      if (function_exists('is_tag') && is_tag()) {
 		         single_tag_title("Tag Archive for &quot;"); echo '&quot; - '; }
 		      elseif (is_archive()) {
@@ -26,7 +26,7 @@
 		          bloginfo('name'); }
 		      if ($paged>1) {
 		         echo ' - page '. $paged; }
-		   ?>
+?>
       </title>
 
     <!-- Bootstrap -->
